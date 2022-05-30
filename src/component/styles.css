@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    margin-top: -20px;
+}
+h1{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    list-style: none;
+    padding: 1rem;
+}
+
+.Home{
+    margin-top: 10rem;
+}
+/* .Home .content{
+    word-spacing: 1rem;
+} */
+.Home h3{
+    position: absolute;
+    left: 4rem;
+    top: 10rem;
+    opacity: 0;
+}
+.Home h4,p{
+    font-size: 1rem;
+    position: absolute;
+    left: 12rem;
+    bottom: 12rem;
+    text-align: center;
+}
+.Home h4{
+    margin-bottom: 2.3rem;
+}
+.content{
+    font-size: 5rem;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    opacity: 0;
+}
+button{
+    font-size: 3rem;
+    color: white;
+    background: #6cff6c;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+} 
+button:hover{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes colorchange {
+    0%{
+        background: #6cff6c;
+    }
+    25%{
+        background-color: brown;
+    }
+    50%{
+        background-color: lightskyblue;
+    }
+    100%{
+        background-color: rgb(255, 255, 43);
+    }
+}
+.Footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    margin-top: -7.5rem;
+    opacity: 0;
+}
+
+.Footer h1{
+    font-size: 1.5rem;
+}
+.Footer ul li{
+    font-size: 2rem;
+}
+.Footer ul li:hover{
+    background: navy;
+    font-size: 2.5rem;
+    border-radius: 50px;
+}
+
+.shin{
+    position: relative;
+    left: 13rem;
+    bottom: 10rem;
+}
+.Home
+img,
+img,
+img,
+img{
+    width: 45%;
+    height: 100%;
+    opacity: 1;
+    /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+
+}
+.img-1,
+.img-2,
+.img-3,
+.img-4{
+    position: absolute;
+}
+.img-1{
+  /* left: -25rem;
+  top: 2rem;  */
+  width: 20%;
+  height: 30%;
+  left: 10rem;
+  top: 5rem;
+}
+.img-2{
+    right: -3.1rem;
+    width: 25%;
+    height: 80%;
+    bottom: 8rem;
+}
+.img-3{
+    width: 20%;
+    left: 26rem;
+    position: relative;
+}
+/* .img-4{
+    width: 30%;
+    height: 40%;
+} */
