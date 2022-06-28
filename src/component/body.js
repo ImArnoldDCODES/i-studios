@@ -3,7 +3,6 @@ import { FiArrowRight }  from 'react-icons/fi';
 import Image1 from '../images/1.jpg';
 import Image2 from '../images/2.jpg';
 import Image3 from '../images/3.jpg';
-// import Image4 from '../images/4.jpg';
 import {gsap, Power4, Timeline} from 'gsap';
 
 
