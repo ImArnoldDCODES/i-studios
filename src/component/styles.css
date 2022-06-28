@@ -30,9 +30,7 @@ ul li{
 .Home{
     margin-top: 10rem;
 }
-/* .Home .content{
-    word-spacing: 1rem;
-} */
+
 .Home h3{
     position: absolute;
     left: 4rem;
@@ -117,8 +115,6 @@ img{
     width: 45%;
     height: 100%;
     opacity: 1;
-    /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
-
 }
 .img-1,
 .img-2,
@@ -127,8 +123,7 @@ img{
     position: absolute;
 }
 .img-1{
-  /* left: -25rem;
-  top: 2rem;  */
+
   width: 20%;
   height: 30%;
   left: 10rem;
