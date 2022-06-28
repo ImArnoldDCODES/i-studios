@@ -9,13 +9,6 @@ import {gsap, Power4, Timeline} from 'gsap';
 const Home = function() {
 
    
-    //   });
-
-  // let Tl = new TimelineLite();
-
-  //     gsap.to('img', {opacity: 1, y:50, duration: 0.2, ease: Power4.easeInOut, stagger: 1 });
-
-  //     Tl.to('.content', { stagger: 1, y: 44, delay: .5})
 
   let tl = gsap.timeline({defaults: {ease: "Power4.inOut", duration: 2}})
 
