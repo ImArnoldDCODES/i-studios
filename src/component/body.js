@@ -42,7 +42,6 @@ useEffect(() => {
         SHINING
         </div>
         <div className='img-4'>
-        {/* <img src={Image4} alt={Image1} /> */}
         </div>
        </div>
     </div>
