@@ -8,15 +8,7 @@ import {gsap, Power4, Timeline} from 'gsap';
 
 const Home = function() {
 
-    // const imgSlide = useRef();
-    // const imgSlide2 = useRef();
-    // const imgSlide3 = useRef();
-
-    // useEffect(() => {
-    //     gsap.to(imgSlide.current, { opacity: 1, y:60, ease: Bounce.out });
-    //     gsap.to(imgSlide2.current, { opacity: 1, y:60, ease: Bounce.out });
-    //     gsap.to(imgSlide3.current, { opacity: 1, y:60, ease: Bounce.out });
-
+   
     //   });
 
   // let Tl = new TimelineLite();
