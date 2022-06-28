@@ -25,7 +25,7 @@ useEffect(() => {
         <li><AiFillInstagram /></li>
         <li><FaTelegram /></li>
     </ul>
-    </div>
+    </div> 
   )
 }
 
