@@ -1,4 +1,4 @@
-import {React, useEffect} from 'react'
+import {React, useEffect} from 'react';
 import { GrTwitter } from 'react-icons/gr';
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaTelegram } from 'react-icons/fa';
