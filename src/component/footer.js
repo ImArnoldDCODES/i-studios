@@ -16,7 +16,7 @@ useEffect(() => {
 
   return (
     <div className='Footer'> 
-    <h1>CREATIVE AGENCY</h1>
+    <h1> CREATIVE AGENCY </h1>
 
     <h1>SHINING@GMAIL.COM</h1>
 
@@ -30,3 +30,6 @@ useEffect(() => {
 }
 
 export default Footer;
+
+
+hello
